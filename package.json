@@ -1,5 +1,5 @@
 {
-  "name": "castStream",
+  "name":"caststream",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
