@@ -1,9 +1,17 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
+import {ThemeProvider} from "styled-components";
+import {Container} from "./AppStyled";
+import {lightTheme, darkTheme} from "./utils/Themes";
 
 
 function App(){   
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <div>CastStream</div>
+    <ThemeProvider theme={darkMode ? darkTheme: lightTheme}>
+      <Container>
+        CastStream
+      </Container>
+   </ThemeProvider>
   
   );
 }
