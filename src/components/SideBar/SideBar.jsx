@@ -1,7 +1,7 @@
 import React from "react";
 import { MenuContainer, Image, Logo, Close, Elements, NavText, Flex, HR} from "./StyledSideBar";
 import {CloudUploadRounded, LightModeRounded, LogoutRounded, DarkModeRounded, CloseRounded } from "@mui/icons-material";
-import LogoIcon from "../../imgs/Logo.png";
+import LogoIcon from "../../imgs/podcast.png";
 import { Link } from "react-router-dom";
 import { menuItens} from "./MenuItens";
 
