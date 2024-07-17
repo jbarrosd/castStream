@@ -3,7 +3,7 @@ import { Avatar } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import HeadphonesIcon from '@mui/icons-material/Headphones';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import {Card,Top, Title, Description, CardImage, CardInformation, MainInfo, Creator, CreatersInfo, CreatorName, Views, Favorite, PlayIcon } from "../Cards/StyledPodcastCards";
+import {Card,Top, Title, Description, CardImage, CardInformation, MainInfo, Creator, CreatersInfo, CreatorName, Views, Favorite, PlayIcon } from "./StyledPodcastCards";
 
 const PodcastCards = () =>{
     return (
