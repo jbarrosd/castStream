@@ -51,6 +51,7 @@ export const SearchedCards = styled.div`
         justify-content: center;
         padding: 6px;
     }
+        height: min-content;
 `;
 export const Categories = styled.div`
     margin: 20px 10px;
