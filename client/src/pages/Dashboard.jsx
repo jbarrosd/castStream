@@ -19,6 +19,7 @@ const Dashboard = () =>{
                 <Podcasts>
                     <PodcastCards/>
                     <PodcastCards/>
+                    <PodcastCards/>
                 </Podcasts>
             </FilterContainer>
 
@@ -31,6 +32,23 @@ const Dashboard = () =>{
                 </Topic>
 
                 <Podcasts>
+                    <PodcastCards/>
+                    <PodcastCards/>
+                    <PodcastCards/>
+                </Podcasts>
+            </FilterContainer>
+
+            <FilterContainer>
+                <Topic>
+                    News
+                    <Link to={`/showpodcasts/news`} style={{ textDecoration: "none" }}>
+                        <Span>Mostrar Todos</Span>
+                    </Link>
+                </Topic>
+
+                <Podcasts>
+                    <PodcastCards/>
+                    <PodcastCards/>
                     <PodcastCards/>
                 </Podcasts>
             </FilterContainer>
